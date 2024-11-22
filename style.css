@@ -1,24 +1,79 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+:root{
+  line-height: 150%;
+  font-family: "Alice", serif;
+  color: #573A37;
 }
 
 body{
-  background: url(assets/bg-image.jpg);
+  background-color: #573A37;
+  background-image: url(assets/bg-image.png);
   background-size: cover;
 }
 
 #page{
   width: 800px;
   padding: 24px;
+  box-sizing: border-box;
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px auto;
 }
 
+main{
+  padding: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+
+}
+
+#ingredients{
+  margin-top: 24px;
+}
+
+section + section{
+  margin-top: 24px;
+}
+
 img{
   border-radius: 16px;
+}
+
+h1{
+  line-height: 140%;
+  font-size: 40px;
+  margin-bottom: 4px;
+}
+
+h2{
+  font-size: 24px;
+  color: #291B1A;
+}
+
+h1, h2{
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 22px;
+}
+
+footer{
+  color: #F0E8C2;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+footer img{
+  vertical-align: middle;
 }
