@@ -1,2 +1,5 @@
 @charset "UTF-8";
 
+img{
+  border-radius: 16px;
+}
